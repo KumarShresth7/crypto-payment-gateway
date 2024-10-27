@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@web3-react/core": "^8.2.3",
+    "@web3-react/injected-connector": "^6.0.7",
+    "autoprefixer": "^10.4.20",
+    "ethers": "^6.13.4",
+    "next": "15.0.1",
+    "qrcode": "^1.5.4",
     "react": "19.0.0-rc-69d4b800-20241021",
-    "react-dom": "19.0.0-rc-69d4b800-20241021",
-    "next": "15.0.1"
+    "react-dom": "19.0.0-rc-69d4b800-20241021"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
   }
 }
