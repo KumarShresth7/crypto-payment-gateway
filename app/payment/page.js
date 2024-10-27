@@ -14,7 +14,7 @@ export default function Page() {
         value={amount}
         onChange={(e) => setAmount(e.target.value)}
         placeholder="Enter amount in ETH"
-        className="mt-4 p-2 border rounded"
+        className="mt-4 text-black p-2 border rounded"
       />
       {/* <div className="mt-6">
         <QRCode value={`${paymentAddress}?amount=${amount}`} />
